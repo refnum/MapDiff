@@ -1,0 +1,10 @@
+.DS_Store
+*.mode2v3
+*.pbxuser
+*.obj
+*.ncb
+*.suo
+*.user
+*.idb
+*.pdb
+

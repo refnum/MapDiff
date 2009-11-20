@@ -1,0 +1,39 @@
+body {
+	font:					12px "Lucida Grande", "Arial", sans-serif;
+	margin:					20px 20px 20px 20px;
+}
+
+#footer {
+	color:					#888888;
+	font:					9px "Geneva", "Arial", sans-serif;
+	text-align:				center;
+	padding-top:			20px;
+}
+	
+#licence {
+	font:					14px "Courier", sans-serif;
+	border:					1px solid #888888;
+	background:				#DDDDFF;
+	margin:					30px 30px 30px 30px;
+	padding:				30px 30px 30px 30px;
+}
+	
+#command {
+	font:					12px "Courier", sans-serif;
+	border:					1px solid #888888;
+	background:				#DDDDFF;
+	margin:					10px 150px 10px 50px;
+	padding:				10px  10px 10px 10px;
+}
+
+h1 {
+	font-size:				large;
+}
+
+h2 {
+	font-size:				medium;
+}
+
+h3 {
+	font-size:				small;
+}

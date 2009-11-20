@@ -1,0 +1,77 @@
+<html>
+<head>
+	<title>MapDiff</title>
+	<link rel="stylesheet" type="text/css" href="html/mapdiff.css">
+</head>
+<body>
+
+
+
+<!-- ========================================================================================== -->
+<h1>MapDiff 1.0</h1>
+<p>
+MapDiff is a utility for visualising OpenStreetMap activity:
+</p>
+
+<div align=center>
+	<embed src="http://www.refnum.com/src/mediaplayer.swf"
+			width=768 height=600
+			allowscriptaccess=always
+			allowfullscreen=true
+			flashvars="height=600&width=768&file=http://www.refnum.com/projects/osm/mapdiff/files/mapdiff.flv&image=http://www.refnum.com/projects/osm/mapdiff/files/mapdiff.jpg&repeat=true"/>
+</div>
+
+<p>
+Each frame represents a <a href="http://planet.openstreetmap.org/daily/">daily diff</a>, generated
+with <a href="http://wiki.openstreetmap.org/index.php/Osmosis">Osmosis</a>. Changes are displayed
+as three colours - red for deletion, blue for creation, and green for modification.
+</p>
+
+
+
+<h2>Using MapDiff</h2>
+<p>
+MapDiff is invoked with a base map, an input change set, and a location to save the output:
+</p>
+
+<div id="command">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;./mapdiff --map=../Resources/Map.png --input=2008_01_01.osc --output=2008_01_01.png
+</div>
+
+<p>
+The base map must follow the "Google Tile" scheme, i.e., a square mercator projection with a latitude
+extent of &plusmn;85.05112877980659. The Resources directory contains a sample map that fits
+this size.
+</p>
+
+<p>
+Scripts to automate the building of diff images, and to convert them to a movie, can be found in the
+Resources directory.
+</p>
+
+
+
+<h2>Building MapDiff</h2>
+<p>
+MapDiff is written in <a href="http://www.digitalmars.com/d/">D</a>, and can be built with
+<a href="http://dgcc.sourceforge.net/">GDC</a>.
+</p>
+
+
+
+
+
+
+
+
+
+
+
+<!-- ========================================================================================== -->
+<div id="footer">
+Copyright &copy; 2008 <a href="http://www.refnum.com/">refNum Software</a>
+</div>
+
+</body>
+</html>
+
